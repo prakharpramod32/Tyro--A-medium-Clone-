@@ -7,7 +7,6 @@ const routes = require('./routes/')
 
 const app = express()
 const router = express.Router()
-const url = process.env.MONGODB_URI || "mongodb://localhost:27017/medium"
 
 
 mongoose.connect('mongodb://localhost:27017/TyroDb', {useNewUrlParser: true, useUnifiedTopology: true})
